@@ -11,6 +11,8 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    border: none;
+    border-radius: 20px 20px 20px 20px;
 }
 
 a:hover {
@@ -54,6 +56,10 @@ a:hover {
 
 .bloc-sm {
     padding: 20px 50px;
+}
+#bloc-8 {
+    justify-content: center; 
+    display: flex;
 }
 
 .bg-center,
@@ -640,7 +646,10 @@ a[data-lightbox]:hover img {
 }
 
 h1,
-h2,
+h2 {
+    z-index: 99;
+    position: relative;
+}
 h3,
 h4,
 h5,
@@ -650,10 +659,12 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
-    color: #575757!important;
+    font-weight: bold;
+    color: black !important;
 }
-
+a:hover {
+    color: #FC9B9B !important;
+}
 .container {
     max-width: 1000px;
 }
@@ -773,11 +784,41 @@ h4 {
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
-
+.bgc-dark-red {
+    background-color:#1B001A;
+    color: white !important;
+}
+.bgc-dark-purple {
+    background: #3D001A;
+}
+.bgc-dark-black {
+    background-color: black;
+    color: white !important;
+}
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
+}
+.tc-black {
+     color: black !important;
 }
 
+.btn-dark-red {
+    background: #3D001A;
+    color: #FFFFFF!important;
+}
+.btn-dark-red:hover {
+    background: #3D001A;
+    opacity: 0.7;
+    color: #FFFFFF!important;
+}
+.btn-darkand-white {
+    background-color: #FFFFFF;
+    color: black;
+}
+.btn-darkand-white:hover {
+    background-color: #FFFFFF !important;
+    color: black;
+}
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
