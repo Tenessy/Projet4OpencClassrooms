@@ -795,6 +795,7 @@ h4 {
 }
 .bgc-dark-black {
     background-color: black;
+    border-radius: 15px 15px 15px 15px;
     color: white !important;
 }
 .tc-white {
