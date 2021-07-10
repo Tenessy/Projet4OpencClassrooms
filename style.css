@@ -803,8 +803,8 @@ h4 {
 .tc-black {
      color: black !important;
 }
-.tc-dark-red {
-     color: #3D001A !important;
+.tc-light-red {
+     color: #FF5765 !important;
 }
 
 .btn-dark-red {
