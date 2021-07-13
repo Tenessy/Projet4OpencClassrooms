@@ -279,6 +279,9 @@ a:hover {
 }
 
 .row-no-gutters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin-right: 0;
     margin-left: 0;
 }
